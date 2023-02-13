@@ -13,22 +13,22 @@
     color: #fff;
 }
 
-.white:after {
-    content: "";
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    background-image: url("./img/open-purple.svg");
-    background-size: contain;
-    float: right;
-}
-
-.purple:after {
+.items-questions:nth-child(even):after {
     content:"";
     display: inline-block;
     width: 20px;
     height: 20px;
     background-image: url("./img/open.svg");
+    background-size: contain;
+    float: right;
+}
+
+.items-questions:nth-child(odd):after {
+    content:"";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./img/open-purple.svg");
     background-size: contain;
     float: right;
 }
